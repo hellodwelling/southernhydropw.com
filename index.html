@@ -8,6 +8,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="Southern Hydro LLC" property="og:title">
+
     
         <meta content="https://landing-page-app-hero-images.s3.amazonaws.com/media/DEBWK9WSSSFC70UL3MIBM183PJ77MSY28OJYNU4R.jpeg" property="og:image">
         <meta content="Southern Hydro LLC" property="twitter:title">
@@ -571,171 +572,138 @@ class="flex flex-col flex-grow w-full overflow-hidden  lg:flex-row sm:mx-auto  b
         <div class="container relative flex flex-col justify-between h-full max-w-6xl px-10 mx-auto xl:px-0">
             <h2 class="mb-3 text-3xl font-extrabold leading-none sm:text-4xl lg:text-7xl tracking-wide  text-center">Our Best Work</h2>
             <h2 class="my-3 mb-10 text-xl font-medium  text-blue-400  text-center">See why our customers love us</h2>
-            <div class="flex flex-wrap md:mx-4 md:mb-8 md:flex-row" x-data="{ open:false, activeSlide : 0, slides: [   [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/M9R3NNHSXNWDVY3FZRR8TSSNYDD8XU8B4J46RQEP.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/MMXL4JK7UY4PO9VSJAFYTFK2PSFYTGTYYL5OXJDT.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/C860OOAZIJP11GQXBRPKHVLQYNL5H7ZUWIVRJWXL.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/YBKQIW0MP62XR1L9F356SCYCB6OTR4HZMV5UQ3XY.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/6KID77PHUW2HXEZ0YIOQSIW3G7K789GFS78SKV2J.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/X4R2TT6IBARXCGPS8KEILEZKBSC6W6EZHXX89S71.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/UQSKQLXIEFBBKTAC33JLH470W8Z2VBYN2ZKNEVWC.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/R3UCTKPRD5FD2U6QQNFV1PWU5ZDSORMCJJ7QPJZD.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/2S7YFWIEFPOWHRL6OL3UE012QGY0GLF9BF6BKA1D.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/FRC2S11FXCK1IH59ULPVDTOHGFPP3CDCULHOJV5A.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/T6FL5RGRZFFAZU8HPYHBT3CADMZVFHZMFVANQ8FS.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/46QPDINMFZWWBNIR7NM72SAR3KFOW4WET5FHY0MN.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/Y49SF6VOVTVLFF8QRIF0F4YN6TBTEW99FAMVOPET.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/BKSW0S29LE0XJTUSU7FDDZKRF8RMRMJ9IZKMRTY7.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/5NFU0VWWW5CW32PUIF9QOHF4WAOXBAOMY0OL93K6.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/8C2GIIPSPE6NJV71U3AZNVN2Q7G6ZJW9JITN93N5.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/X0OUL4MYZV9OQG30FK6WJNPUISRTY5H2AMBKHFD5.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/QKLEY08ZG4I1EQPG1U8AZZGKSMPJB1IQ3KPQPNJH.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/XWWN2NDNUJGLDRRJ1PMYWWN64EHRUIBZ2LDHYZ8C.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/BRDWZPMF02VNJ4U14OVFFNXLFN3O5YL05Y6MBWJN.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/2G3112NV8EF2VMKNAXPW1E4WTKG5BT9IGDPC6423.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/O1F111V5MJ9O76ZLZO0FBUI6F04I8Z5HD3U33BZC.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/VURMIFQFEYPAMGICEIB2AG3WN5E1OSDUDE5XBKPU.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/H3QIGF1FPIL78KF62IYS8GSM2ERUW00MQTPLZUR4.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/Q5DXX7QI4V53LATFBAL71CDCRODN3N8UGUMV3OKN.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/SY2SIIHYDDJMK8LEDVASL1HMYYHM47TO0CV4EKTW.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/M5Q01PM3T1SX6OHQ36TG1EKX4VXF5HA4YPKVD0CW.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/SL8QVE315BT5NE6YHO0A4HVFMTVRZF5MVM827226.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/E29WIRUCXHMYL6L5JTG42XN0ICUAIXK4QALRS8MJ.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/AT4X98HHFPIDXGI3RGH8NVB0M4Z782IBYLT79CYK.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/9OCF2RPHFK2KKCTNDK4UINA4ULFBRLFDBZ7ABO52.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/WX44C4ZEDPCK69UD4OAXIHCITTCKW0MZAGAAIX3E.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/B0XXKIJ08CCYRN7XD37GJHWAERFC7P1VRX472TUW.jpeg', 'photo'],   ] }" @keydown.escape= "open = false"   >
+            <div class="flex flex-wrap md:mx-4 md:mb-8 md:flex-row" x-data="{ open:false, activeSlide : 0, slides: [   [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/M9R3NNHSXNWDVY3FZRR8TSSNYDD8XU8B4J46RQEP.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/MMXL4JK7UY4PO9VSJAFYTFK2PSFYTGTYYL5OXJDT.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/C860OOAZIJP11GQXBRPKHVLQYNL5H7ZUWIVRJWXL.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/YBKQIW0MP62XR1L9F356SCYCB6OTR4HZMV5UQ3XY.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/6KID77PHUW2HXEZ0YIOQSIW3G7K789GFS78SKV2J.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/X4R2TT6IBARXCGPS8KEILEZKBSC6W6EZHXX89S71.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/UQSKQLXIEFBBKTAC33JLH470W8Z2VBYN2ZKNEVWC.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/R3UCTKPRD5FD2U6QQNFV1PWU5ZDSORMCJJ7QPJZD.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/2S7YFWIEFPOWHRL6OL3UE012QGY0GLF9BF6BKA1D.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/FRC2S11FXCK1IH59ULPVDTOHGFPP3CDCULHOJV5A.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/T6FL5RGRZFFAZU8HPYHBT3CADMZVFHZMFVANQ8FS.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/46QPDINMFZWWBNIR7NM72SAR3KFOW4WET5FHY0MN.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/Y49SF6VOVTVLFF8QRIF0F4YN6TBTEW99FAMVOPET.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/BKSW0S29LE0XJTUSU7FDDZKRF8RMRMJ9IZKMRTY7.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/5NFU0VWWW5CW32PUIF9QOHF4WAOXBAOMY0OL93K6.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/8C2GIIPSPE6NJV71U3AZNVN2Q7G6ZJW9JITN93N5.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/X0OUL4MYZV9OQG30FK6WJNPUISRTY5H2AMBKHFD5.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/QKLEY08ZG4I1EQPG1U8AZZGKSMPJB1IQ3KPQPNJH.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/XWWN2NDNUJGLDRRJ1PMYWWN64EHRUIBZ2LDHYZ8C.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/BRDWZPMF02VNJ4U14OVFFNXLFN3O5YL05Y6MBWJN.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/2G3112NV8EF2VMKNAXPW1E4WTKG5BT9IGDPC6423.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/O1F111V5MJ9O76ZLZO0FBUI6F04I8Z5HD3U33BZC.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/VURMIFQFEYPAMGICEIB2AG3WN5E1OSDUDE5XBKPU.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/H3QIGF1FPIL78KF62IYS8GSM2ERUW00MQTPLZUR4.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/Q5DXX7QI4V53LATFBAL71CDCRODN3N8UGUMV3OKN.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/SY2SIIHYDDJMK8LEDVASL1HMYYHM47TO0CV4EKTW.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/M5Q01PM3T1SX6OHQ36TG1EKX4VXF5HA4YPKVD0CW.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/SL8QVE315BT5NE6YHO0A4HVFMTVRZF5MVM827226.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/E29WIRUCXHMYL6L5JTG42XN0ICUAIXK4QALRS8MJ.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/AT4X98HHFPIDXGI3RGH8NVB0M4Z782IBYLT79CYK.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/9OCF2RPHFK2KKCTNDK4UINA4ULFBRLFDBZ7ABO52.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/WX44C4ZEDPCK69UD4OAXIHCITTCKW0MZAGAAIX3E.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/B0XXKIJ08CCYRN7XD37GJHWAERFC7P1VRX472TUW.jpeg', 'photo'],   ] }" @keydown.escape= "open = false"   >
                                     
                         
-                              
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 0; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/M9R3NNHSXNWDVY3FZRR8TSSNYDD8XU8B4J46RQEP.jpeg"  alt = "Photo number 1 of Southern Hydro LLC&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 0; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/342x240/media/M9R3NNHSXNWDVY3FZRR8TSSNYDD8XU8B4J46RQEP.jpeg"  alt = "Photo number 1 of Southern Hydro LLC&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
                     
                                     
                         
-                              
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 1; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/MMXL4JK7UY4PO9VSJAFYTFK2PSFYTGTYYL5OXJDT.jpeg"  alt = "Photo number 2 of Southern Hydro LLC&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 1; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/342x240/media/MMXL4JK7UY4PO9VSJAFYTFK2PSFYTGTYYL5OXJDT.jpeg"  alt = "Photo number 2 of Southern Hydro LLC&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
                     
                                     
                         
-                              
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 2; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/C860OOAZIJP11GQXBRPKHVLQYNL5H7ZUWIVRJWXL.jpeg"  alt = "Photo number 3 of Southern Hydro LLC&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 2; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/342x240/media/C860OOAZIJP11GQXBRPKHVLQYNL5H7ZUWIVRJWXL.jpeg"  alt = "Photo number 3 of Southern Hydro LLC&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
                     
                                     
                         
-                              
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 3; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/YBKQIW0MP62XR1L9F356SCYCB6OTR4HZMV5UQ3XY.jpeg"  alt = "Photo number 4 of Southern Hydro LLC&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 3; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/342x240/media/YBKQIW0MP62XR1L9F356SCYCB6OTR4HZMV5UQ3XY.jpeg"  alt = "Photo number 4 of Southern Hydro LLC&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
                     
                                     
                         
-                              
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 4; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/6KID77PHUW2HXEZ0YIOQSIW3G7K789GFS78SKV2J.jpeg"  alt = "Photo number 5 of Southern Hydro LLC&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 4; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/342x240/media/6KID77PHUW2HXEZ0YIOQSIW3G7K789GFS78SKV2J.jpeg"  alt = "Photo number 5 of Southern Hydro LLC&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
                     
                                     
                         
-                              
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 5; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/X4R2TT6IBARXCGPS8KEILEZKBSC6W6EZHXX89S71.jpeg"  alt = "Photo number 6 of Southern Hydro LLC&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 5; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/342x240/media/X4R2TT6IBARXCGPS8KEILEZKBSC6W6EZHXX89S71.jpeg"  alt = "Photo number 6 of Southern Hydro LLC&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
                     
                                     
                         
-                              
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 6; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/UQSKQLXIEFBBKTAC33JLH470W8Z2VBYN2ZKNEVWC.jpeg"  alt = "Photo number 7 of Southern Hydro LLC&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 6; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/342x240/media/UQSKQLXIEFBBKTAC33JLH470W8Z2VBYN2ZKNEVWC.jpeg"  alt = "Photo number 7 of Southern Hydro LLC&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
                     
                                     
                         
-                              
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 7; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/R3UCTKPRD5FD2U6QQNFV1PWU5ZDSORMCJJ7QPJZD.jpeg"  alt = "Photo number 8 of Southern Hydro LLC&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 7; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/342x240/media/R3UCTKPRD5FD2U6QQNFV1PWU5ZDSORMCJJ7QPJZD.jpeg"  alt = "Photo number 8 of Southern Hydro LLC&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
                     
                                     
                         
-                              
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 8; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/2S7YFWIEFPOWHRL6OL3UE012QGY0GLF9BF6BKA1D.jpeg"  alt = "Photo number 9 of Southern Hydro LLC&#x27;s best work performing a Fence Washing job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 8; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/342x240/media/2S7YFWIEFPOWHRL6OL3UE012QGY0GLF9BF6BKA1D.jpeg"  alt = "Photo number 9 of Southern Hydro LLC&#x27;s best work performing a Fence Washing job"   loading="lazy" ></div>
                     
                                     
                         
-                              
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 9; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/FRC2S11FXCK1IH59ULPVDTOHGFPP3CDCULHOJV5A.jpeg"  alt = "Photo number 10 of Southern Hydro LLC&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 9; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/342x240/media/FRC2S11FXCK1IH59ULPVDTOHGFPP3CDCULHOJV5A.jpeg"  alt = "Photo number 10 of Southern Hydro LLC&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
                     
                                     
                         
-                              
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 10; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/T6FL5RGRZFFAZU8HPYHBT3CADMZVFHZMFVANQ8FS.jpeg"  alt = "Photo number 11 of Southern Hydro LLC&#x27;s best work performing a Home Softwash job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 10; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/342x240/media/T6FL5RGRZFFAZU8HPYHBT3CADMZVFHZMFVANQ8FS.jpeg"  alt = "Photo number 11 of Southern Hydro LLC&#x27;s best work performing a Home Softwash job"   loading="lazy" ></div>
                     
                                     
                         
-                              
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 11; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/46QPDINMFZWWBNIR7NM72SAR3KFOW4WET5FHY0MN.jpeg"  alt = "Photo number 12 of Southern Hydro LLC&#x27;s best work performing a Home Softwash job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 11; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/342x240/media/46QPDINMFZWWBNIR7NM72SAR3KFOW4WET5FHY0MN.jpeg"  alt = "Photo number 12 of Southern Hydro LLC&#x27;s best work performing a Home Softwash job"   loading="lazy" ></div>
                     
                                     
                         
-                              
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 12; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/Y49SF6VOVTVLFF8QRIF0F4YN6TBTEW99FAMVOPET.jpeg"  alt = "Photo number 13 of Southern Hydro LLC&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 12; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/342x240/media/Y49SF6VOVTVLFF8QRIF0F4YN6TBTEW99FAMVOPET.jpeg"  alt = "Photo number 13 of Southern Hydro LLC&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
                     
                                     
                         
-                              
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 13; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/BKSW0S29LE0XJTUSU7FDDZKRF8RMRMJ9IZKMRTY7.jpeg"  alt = "Photo number 14 of Southern Hydro LLC&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 13; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/342x240/media/BKSW0S29LE0XJTUSU7FDDZKRF8RMRMJ9IZKMRTY7.jpeg"  alt = "Photo number 14 of Southern Hydro LLC&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
                     
                                     
                         
-                              
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 14; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/5NFU0VWWW5CW32PUIF9QOHF4WAOXBAOMY0OL93K6.jpeg"  alt = "Photo number 15 of Southern Hydro LLC&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 14; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/342x240/media/5NFU0VWWW5CW32PUIF9QOHF4WAOXBAOMY0OL93K6.jpeg"  alt = "Photo number 15 of Southern Hydro LLC&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
                     
                                     
                         
-                              
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 15; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/8C2GIIPSPE6NJV71U3AZNVN2Q7G6ZJW9JITN93N5.jpeg"  alt = "Photo number 16 of Southern Hydro LLC&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 15; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/342x240/media/8C2GIIPSPE6NJV71U3AZNVN2Q7G6ZJW9JITN93N5.jpeg"  alt = "Photo number 16 of Southern Hydro LLC&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
                     
                                     
                         
-                              
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 16; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/X0OUL4MYZV9OQG30FK6WJNPUISRTY5H2AMBKHFD5.jpeg"  alt = "Photo number 17 of Southern Hydro LLC&#x27;s best work performing a Home Softwash job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 16; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/342x240/media/X0OUL4MYZV9OQG30FK6WJNPUISRTY5H2AMBKHFD5.jpeg"  alt = "Photo number 17 of Southern Hydro LLC&#x27;s best work performing a Home Softwash job"   loading="lazy" ></div>
                     
                                     
                         
-                              
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 17; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/QKLEY08ZG4I1EQPG1U8AZZGKSMPJB1IQ3KPQPNJH.jpeg"  alt = "Photo number 18 of Southern Hydro LLC&#x27;s best work performing a Home Softwash job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 17; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/342x240/media/QKLEY08ZG4I1EQPG1U8AZZGKSMPJB1IQ3KPQPNJH.jpeg"  alt = "Photo number 18 of Southern Hydro LLC&#x27;s best work performing a Home Softwash job"   loading="lazy" ></div>
                     
                                     
                         
-                              
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 18; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/XWWN2NDNUJGLDRRJ1PMYWWN64EHRUIBZ2LDHYZ8C.jpeg"  alt = "Photo number 19 of Southern Hydro LLC&#x27;s best work performing a Home Softwash job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 18; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/342x240/media/XWWN2NDNUJGLDRRJ1PMYWWN64EHRUIBZ2LDHYZ8C.jpeg"  alt = "Photo number 19 of Southern Hydro LLC&#x27;s best work performing a Home Softwash job"   loading="lazy" ></div>
                     
                                     
                         
-                              
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 19; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/BRDWZPMF02VNJ4U14OVFFNXLFN3O5YL05Y6MBWJN.jpeg"  alt = "Photo number 20 of Southern Hydro LLC&#x27;s best work performing a Home Softwash job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 19; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/342x240/media/BRDWZPMF02VNJ4U14OVFFNXLFN3O5YL05Y6MBWJN.jpeg"  alt = "Photo number 20 of Southern Hydro LLC&#x27;s best work performing a Home Softwash job"   loading="lazy" ></div>
                     
                                     
                         
-                              
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 20; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/2G3112NV8EF2VMKNAXPW1E4WTKG5BT9IGDPC6423.jpeg"  alt = "Photo number 21 of Southern Hydro LLC&#x27;s best work performing a Hardscape &amp; Pool Deck Cleaning job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 20; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/342x240/media/2G3112NV8EF2VMKNAXPW1E4WTKG5BT9IGDPC6423.jpeg"  alt = "Photo number 21 of Southern Hydro LLC&#x27;s best work performing a Hardscape &amp; Pool Deck Cleaning job"   loading="lazy" ></div>
                     
                                     
                         
-                              
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 21; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/O1F111V5MJ9O76ZLZO0FBUI6F04I8Z5HD3U33BZC.jpeg"  alt = "Photo number 22 of Southern Hydro LLC&#x27;s best work performing a Home Softwash job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 21; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/342x240/media/O1F111V5MJ9O76ZLZO0FBUI6F04I8Z5HD3U33BZC.jpeg"  alt = "Photo number 22 of Southern Hydro LLC&#x27;s best work performing a Home Softwash job"   loading="lazy" ></div>
                     
                                     
                         
-                              
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 22; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/VURMIFQFEYPAMGICEIB2AG3WN5E1OSDUDE5XBKPU.jpeg"  alt = "Photo number 23 of Southern Hydro LLC&#x27;s best work performing a Home Softwash job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 22; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/342x240/media/VURMIFQFEYPAMGICEIB2AG3WN5E1OSDUDE5XBKPU.jpeg"  alt = "Photo number 23 of Southern Hydro LLC&#x27;s best work performing a Home Softwash job"   loading="lazy" ></div>
                     
                                     
                         
-                              
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 23; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/H3QIGF1FPIL78KF62IYS8GSM2ERUW00MQTPLZUR4.jpeg"  alt = "Photo number 24 of Southern Hydro LLC&#x27;s best work performing a Home Softwash job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 23; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/342x240/media/H3QIGF1FPIL78KF62IYS8GSM2ERUW00MQTPLZUR4.jpeg"  alt = "Photo number 24 of Southern Hydro LLC&#x27;s best work performing a Home Softwash job"   loading="lazy" ></div>
                     
                                     
                         
-                              
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 24; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/Q5DXX7QI4V53LATFBAL71CDCRODN3N8UGUMV3OKN.jpeg"  alt = "Photo number 25 of Southern Hydro LLC&#x27;s best work performing a Home Softwash job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 24; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/342x240/media/Q5DXX7QI4V53LATFBAL71CDCRODN3N8UGUMV3OKN.jpeg"  alt = "Photo number 25 of Southern Hydro LLC&#x27;s best work performing a Home Softwash job"   loading="lazy" ></div>
                     
                                     
                         
-                              
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 25; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/SY2SIIHYDDJMK8LEDVASL1HMYYHM47TO0CV4EKTW.jpeg"  alt = "Photo number 26 of Southern Hydro LLC&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 25; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/342x240/media/SY2SIIHYDDJMK8LEDVASL1HMYYHM47TO0CV4EKTW.jpeg"  alt = "Photo number 26 of Southern Hydro LLC&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
                     
                                     
                         
-                              
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 26; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/M5Q01PM3T1SX6OHQ36TG1EKX4VXF5HA4YPKVD0CW.jpeg"  alt = "Photo number 27 of Southern Hydro LLC&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 26; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/342x240/media/M5Q01PM3T1SX6OHQ36TG1EKX4VXF5HA4YPKVD0CW.jpeg"  alt = "Photo number 27 of Southern Hydro LLC&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
                     
                                     
                         
-                              
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 27; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/SL8QVE315BT5NE6YHO0A4HVFMTVRZF5MVM827226.jpeg"  alt = "Photo number 28 of Southern Hydro LLC&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 27; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/342x240/media/SL8QVE315BT5NE6YHO0A4HVFMTVRZF5MVM827226.jpeg"  alt = "Photo number 28 of Southern Hydro LLC&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
                     
                                     
                         
-                              
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 28; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/E29WIRUCXHMYL6L5JTG42XN0ICUAIXK4QALRS8MJ.jpeg"  alt = "Photo number 29 of Southern Hydro LLC&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 28; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/342x240/media/E29WIRUCXHMYL6L5JTG42XN0ICUAIXK4QALRS8MJ.jpeg"  alt = "Photo number 29 of Southern Hydro LLC&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
                     
                                     
                         
-                              
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 29; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/AT4X98HHFPIDXGI3RGH8NVB0M4Z782IBYLT79CYK.jpeg"  alt = "Photo number 30 of Southern Hydro LLC&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 29; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/342x240/media/AT4X98HHFPIDXGI3RGH8NVB0M4Z782IBYLT79CYK.jpeg"  alt = "Photo number 30 of Southern Hydro LLC&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
                     
                                     
                         
-                              
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 30; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/9OCF2RPHFK2KKCTNDK4UINA4ULFBRLFDBZ7ABO52.jpeg"  alt = "Photo number 31 of Southern Hydro LLC&#x27;s best work performing a Home Softwash job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 30; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/342x240/media/9OCF2RPHFK2KKCTNDK4UINA4ULFBRLFDBZ7ABO52.jpeg"  alt = "Photo number 31 of Southern Hydro LLC&#x27;s best work performing a Home Softwash job"   loading="lazy" ></div>
                     
                                     
                         
-                              
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 31; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/WX44C4ZEDPCK69UD4OAXIHCITTCKW0MZAGAAIX3E.jpeg"  alt = "Photo number 32 of Southern Hydro LLC&#x27;s best work performing a Hardscape &amp; Pool Deck Cleaning job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 31; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/342x240/media/WX44C4ZEDPCK69UD4OAXIHCITTCKW0MZAGAAIX3E.jpeg"  alt = "Photo number 32 of Southern Hydro LLC&#x27;s best work performing a Hardscape &amp; Pool Deck Cleaning job"   loading="lazy" ></div>
                     
                                     
                         
-                              
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 32; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/B0XXKIJ08CCYRN7XD37GJHWAERFC7P1VRX472TUW.jpeg"  alt = "Photo number 33 of Southern Hydro LLC&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 32; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/342x240/media/B0XXKIJ08CCYRN7XD37GJHWAERFC7P1VRX472TUW.jpeg"  alt = "Photo number 33 of Southern Hydro LLC&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
                     
                  
                                     
@@ -817,7 +785,6 @@ class="flex flex-col flex-grow w-full overflow-hidden  lg:flex-row sm:mx-auto  b
 
             
 </div>
-
         
     
     
@@ -1152,6 +1119,35 @@ class="flex flex-col flex-grow w-full overflow-hidden  lg:flex-row sm:mx-auto  b
                                 
                             </div>
                             <blockquote class="mt-8 lg:pr-5 font-bold text-xl text-center lg:text-left   text-black ">"I can't say enough about the quality of work this company did for my house. I was surprised by the professionalism and care that they showed for my house. I had a couple of places that needed touching up and they were back at my house within an hour. I would recommend them to everyone."</blockquote>                           
+                        </div>
+                    </div>
+                    
+                    </div>
+
+                    
+            
+                    <div class="flex flex-col items-center lg:items-start justify-center w-full h-auto mb-12 lg:w-1/2">
+                    <div class="flex items-center lg:items-start ">
+                        
+                        <div class="flex flex-col justify-start items-center lg:items-start ">
+                            <h3 class="font-bold  text-black  ">Connie Mitchell</h3>
+                            <h3 class=" text-black ">Cumming, GA  , Home Softwash  </h3>
+                            <div class="flex flex-row items-start ">
+                                
+                                
+                                <span class = " text-black "> <i class="fas fa-star"> </i> </span>
+                                
+                                <span class = " text-black "> <i class="fas fa-star"> </i> </span>
+                                
+                                <span class = " text-black "> <i class="fas fa-star"> </i> </span>
+                                
+                                <span class = " text-black "> <i class="fas fa-star"> </i> </span>
+                                
+                                <span class = " text-black "> <i class="fas fa-star"> </i> </span>
+                                
+                                
+                            </div>
+                            <blockquote class="mt-8 lg:pr-5 font-bold text-xl text-center lg:text-left   text-black ">"Cole was on time for every appointment. He responded quickly to my text or calls. He did an excellent job on my house, roof, driveway, walkways, and concrete around the pool. I had him come back to clean my gutters and he did another excellent job. He is very professional and polite. I highly recommend his company!"</blockquote>                           
                         </div>
                     </div>
                     
